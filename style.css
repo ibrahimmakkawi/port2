@@ -72,7 +72,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url(/imgs/newbggg.png) no-repeat;
+  background: url(imgs/newbggg.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -93,7 +93,7 @@ section {
   font-size: 3.2rem;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 0.7px var(--maincolor);
+  -webkit-text-stroke: 0.8px var(--maincolor);
   background-image: linear-gradient(var(--maincolor), var(--maincolor));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
