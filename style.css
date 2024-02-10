@@ -397,6 +397,44 @@ span {
   font-size: 2.5rem;
   margin: 0 0 1.5rem;
 }
+
+/*  */
+
+.skills-row .skillss-column {
+}
+.skillss-column .title {
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.skillss-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillss-box .progresss {
+  position: relative;
+  border: 0.2rem solid var(--maincolor);
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.5rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease;
+  margin: 1rem;
+  width: fit-content;
+  display: flex;
+}
+.skillss-content .progresss {
+  padding: 1rem 1rem;
+}
+.skillss-content .progresss h3 {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--maincolor);
@@ -443,28 +481,28 @@ span {
   width: 50%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  width: 90%;
+  width: 75%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-  width: 80%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-  width: 70%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-  width: 50%;
-}
-.skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
   width: 90%;
 }
-.skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span {
-  width: 80%;
+.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+  width: 90%;
 }
-.skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+  width: 65%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+  width: 60%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
+  width: 100%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span {
   width: 70%;
 }
-.skills-column:nth-child(3) .skills-content .progress:nth-child(4) .bar span {
-  width: 50%;
+.skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
+  width: 90%;
 }
 
 .skills-box .skills-content:hover {
