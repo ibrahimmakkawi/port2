@@ -420,12 +420,12 @@ span {
   z-index: 1;
   overflow: hidden;
   transition: 0.5s ease;
-  margin: 1rem;
+  margin: 0.5rem;
   width: fit-content;
   display: flex;
 }
 .skillss-content .progresss {
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
 .skillss-content .progresss h3 {
   font-size: 1.7rem;
