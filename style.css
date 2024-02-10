@@ -544,6 +544,9 @@ span {
   margin: 2rem;
   transition: 0.5s ease;
 }
+.card p {
+  color: var(--textcolor);
+}
 .card:hover {
   background: var(--secbgcolor);
 }
